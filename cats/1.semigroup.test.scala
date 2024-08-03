@@ -1,5 +1,5 @@
 //> using test.dep org.scalameta::munit::1.0.0
-//> using file semigroup.scala
+//> using file 1.semigroup.scala
 
 class Semigroup extends munit.FunSuite {
   test("combine Ints") {

@@ -15,7 +15,7 @@ There are two commands needed to explore these exercises
 - `scala-cli test <file.test.`scala>` This will allow you to test files
 
 ```bash
-❯ scala-cli repl semigroup.scala
+❯ scala-cli repl 1.semigroup.scala
 Compiling project (Scala 3.4.1, JVM (17))
 Compiled project (Scala 3.4.1, JVM (17))
 Welcome to Scala 3.4.1 (17.0.5, Java Java HotSpot(TM) 64-Bit Server VM).
@@ -26,7 +26,7 @@ val res0: Int = 67
 ```
 
 ```bash
-❯ scala-cli test semigroup.test.scala
+❯ scala-cli test 1.semigroup.test.scala
 Compiling project (test, Scala 3.4.1, JVM (17))
 Compiled project (test, Scala 3.4.1, JVM (17))
 Semigroup:
