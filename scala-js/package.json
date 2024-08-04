@@ -10,5 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.1"
   }
 }
