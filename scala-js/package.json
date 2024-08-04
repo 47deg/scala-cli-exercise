@@ -1,0 +1,14 @@
+{
+  "name": "scala",
+  "version": "1.0.0",
+  "description": "scala",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "esteban-marin",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
