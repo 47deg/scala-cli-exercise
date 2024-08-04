@@ -1,11 +1,13 @@
 # scala-exercises WIP
 
 a scala-cli implementation of [scala-exercises](https://www.scala-exercises.org/)
+For local interaction with minimal dependencies
 
 ## pre-requisites
 
 Install [Scala-cli](https://scala-cli.virtuslab.org/docs/overview#installation)
-if you are a nix fan you can use [typelevel-nix](https://github.com/typelevel/typelevel-nix)
+
+docker for database
 
 ## How to use this repo
 

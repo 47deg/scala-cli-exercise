@@ -1,0 +1,35 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: world
+    ports:
+      - 5432:5432
+    volumes:
+      - ./init/postgres/:/docker-entrypoint-initdb.d/
+    deploy:
+      resources:
+        limits:
+          memory: 500M
+
+# ❯ docker exec -it $(docker container ps | fzf | awk '{print $1}') bash
+# psql -U postgres -d world
+
+
+# ❯ docker exec -it $(docker container ps | fzf | awk '{print $1}') bash
+# root@fcba36203db8:/# psql -U postgres -d world
+# psql (16.3 (Debian 16.3-1.pgdg110+1))
+# Type "help" for help.
+
+# world=# select * from country;
+#  code |           name           | population |    gnp     
+# ------+--------------------------+------------+------------
+#  DEU  | Germany                  |   82164700 | 2133367.00
+#  ESP  | Spain                    |   39441700 |           
+#  FRA  | France                   |   59225700 | 1424285.00
+#  GBR  | United Kingdom           |   59623400 | 1378330.00
+#  USA  | United States of America |  278357000 | 8510700.00
