@@ -15,31 +15,3 @@ object Hello {
     dom.document.body.appendChild(parNode)
   }
 }
-
-// object HelloWorldView {
-
-//   def apply(): HtmlElement = {
-//     div(
-//       renderExample(),
-//       // CodeSnippets(_.`hello world`)
-//       "test"
-//     )
-//   }
-
-//   def renderExample(): HtmlElement = {
-
-//     val nameVar = Var(initial = "world")
-//     div(
-//       label("Your name: "),
-//       input(
-//         placeholder := "Enter your name here",
-//         onInput.mapToValue --> nameVar
-//       ),
-//       p(
-//         "Hello, ",
-//         text <-- nameVar.signal.map(_.toUpperCase)
-//       )
-//     )
-//     // END[hello world]
-//   }
-// }
