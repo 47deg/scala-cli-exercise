@@ -1,3 +1,7 @@
+//> using dep org.scalatest::scalatest::3.2.19
+
+import org.scalatest.matchers.should.Matchers._
+
 // ScalaTest makes three assertions available by default in any style trait. You can use:
 //  assert for general assertions;
 //  assertResult to differentiate expected from actual values;
@@ -32,7 +36,7 @@ val assertTrue = true shouldBe true
 // Booleans in asserts can test equality:
 
 val v4 = 4
-val assertEquals = v4 shouldEqual 4
+val assertEqual = v4 shouldEqual 4
 // test: Int = 4
 
 // Sometimes we expect you to fill in the values:
