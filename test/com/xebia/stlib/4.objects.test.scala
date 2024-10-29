@@ -1,5 +1,5 @@
-//> using files "4.objects.scala"
-//> using test.dependency "org.scalameta::munit::1.0.1"
+package com.xebia.stdlib
+
 
 class Objects extends munit.FunSuite {
   test("Object def") {

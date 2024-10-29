@@ -1,3 +1,5 @@
+package com.xebia.stdlib
+
 import org.scalatest.matchers.should.Matchers._
 
 // ScalaTest makes three assertions available by default in any style trait. You can use:

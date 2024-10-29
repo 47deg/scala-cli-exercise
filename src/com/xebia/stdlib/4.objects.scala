@@ -1,3 +1,5 @@
+package com.xebia.stdlib
+
 // An object is a singleton. One object, that's it. This object is a replacement of static in Java, and is called upon much in the same way:
 
 object Greeting:

@@ -1,3 +1,5 @@
+package com.xebia.stdlib
+
 // If you have worked with Java at all in the past, it is very likely that you have come across a NullPointerException at some time (other languages will throw similarly named errors in such a case). Usually this happens because some method returns null when you were not expecting it and thus not dealing with that possibility in your client code. A value of null is often abused to represent an absent optional value.
 
 // Scala tries to solve the problem by getting rid of null values altogether and providing its own type for representing optional values, i.e. values that may be present or not: the Option[A] trait.

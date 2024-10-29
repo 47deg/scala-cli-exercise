@@ -1,5 +1,5 @@
-//> using files "5.tuples.scala"
-//> using test.dependency "org.scalameta::munit::1.0.1"
+package com.xebia.stdlib
+
 
 class Tuples extends munit.FunSuite {
   test("tuple values") {

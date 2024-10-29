@@ -1,5 +1,4 @@
-import com.xebia.cats
-
+package com.xebia.cats
 class Semigroup extends munit.FunSuite {
   test("combine Ints") {
     assert(combineInts == 3)

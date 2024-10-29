@@ -1,5 +1,5 @@
-//> using files "1.asserts.scala"
-//> using test.dependency "org.scalameta::munit::1.0.1"
+package com.xebia.stdlib
+
 
 import org.scalatest.matchers.should.Matchers._
 

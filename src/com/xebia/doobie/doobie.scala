@@ -1,3 +1,5 @@
+package com.xebia.doobie  
+
 import cats.effect.{IO, IOApp}
 import doobie.*
 import doobie.implicits.*

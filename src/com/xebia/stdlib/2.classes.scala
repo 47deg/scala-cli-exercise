@@ -1,3 +1,5 @@
+package com.xebia.stdlib
+
 // Classes in Scala are static templates that can be instantiated into many objects at runtime. Here is a class definition which defines a class Point:
 
 // class Point(x: Int, y: Int) {

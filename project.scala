@@ -1,7 +1,7 @@
 // Main
 //> using scala "3" "3.5.2"
 //> using platforms "scala-js"
-//> using toolkit "typelevel:0.1.27" "typelevel:0.1.28"
+//> using toolkit "typelevel:0.1.28"
 
 //> using dependency "com.raquo::airstream::17.0.0"
 //> using dependency "com.raquo::laminar::17.0.0"
@@ -14,8 +14,6 @@
 //> using dependency "org.tpolecat::doobie-postgres:1.0.0-RC4"
 //> using dependency "org.typelevel::cats-core:2.12.0"
 //> using dependency "org.typelevel::cats-kernel:2.12.0"
-
-//> using publish.name "toolkit"
 
 // Test
 //> using test.dependency "org.scalameta::munit-scalacheck:1.0.0"

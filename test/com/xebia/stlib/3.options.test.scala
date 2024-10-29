@@ -1,5 +1,5 @@
-//> using files "3.options.scala"
-//> using test.dependency "org.scalameta::munit::1.0.1"
+package com.xebia.stdlib
+
 
 class Options extends munit.FunSuite {
   test("Some[String] value") {
