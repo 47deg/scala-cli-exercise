@@ -1,5 +1,4 @@
-//> using files "1.semigroup.scala"
-//> using test.dependency "org.scalameta::munit::1.0.0"
+import com.xebia.cats
 
 class Semigroup extends munit.FunSuite {
   test("combine Ints") {

@@ -17,7 +17,6 @@
           imports = [ typelevel-nix.typelevelShell ];
           name = "xebia-shell";
           typelevelShell = {
-            # jdk.package = builtins.getAttr "jdk${pkgs.lib.fileContents ./.java-version}" pkgs;
             jdk.package = pkgs.jdk21;
           };
         };

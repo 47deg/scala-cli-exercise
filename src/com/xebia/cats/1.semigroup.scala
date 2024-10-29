@@ -1,3 +1,4 @@
+package com.xebia.cats
 // A semigroup for some given type A has a single operation (which we will call combine),
 // which takes two values of type A, and returns a value of type A.
 // This operation must be guaranteed to be associative. That is to say that:
