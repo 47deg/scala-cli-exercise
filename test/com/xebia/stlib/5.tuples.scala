@@ -1,6 +1,5 @@
 package com.xebia.stdlib
 
-
 class Tuples extends munit.FunSuite {
   test("tuple values") {
     assert(fruit == "apple")

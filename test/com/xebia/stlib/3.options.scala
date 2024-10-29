@@ -1,6 +1,5 @@
 package com.xebia.stdlib
 
-
 class Options extends munit.FunSuite {
   test("Some[String] value") {
     assert(someValue == Some("I am wrapped in something"))

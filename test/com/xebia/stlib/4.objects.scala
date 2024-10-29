@@ -1,6 +1,5 @@
 package com.xebia.stdlib
 
-
 class Objects extends munit.FunSuite {
   test("Object def") {
     assert(greetingEnglish == "Hi")

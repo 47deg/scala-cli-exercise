@@ -1,6 +1,5 @@
 package com.xebia.stdlib
 
-
 import org.scalatest.matchers.should.Matchers._
 
 class Asserts extends munit.FunSuite {

@@ -1,4 +1,4 @@
-package com.xebia.doobie  
+package com.xebia.doobie
 
 import cats.effect.{IO, IOApp}
 import doobie.*
