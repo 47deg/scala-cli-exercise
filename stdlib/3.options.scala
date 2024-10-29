@@ -41,13 +41,13 @@ val value2IsEmpty = value2.isEmpty
 val someDoubleValue: Option[Double] = Some(20.0)
 val someValueMatch = someDoubleValue match
   case Some(v) => v
-  case None => 0.0
+  case None    => 0.0
 // test: Double = 20.0
 
 val noValue: Option[Double] = None
 val noValueMatch = noValue match
   case Some(v) => v
-  case None => 0.0
+  case None    => 0.0
 // test: Double = 0.0
 
 // An alternative for pattern matching is performing collection style operations. This is possible because an option could be looked at as a collection with either one or zero elements.

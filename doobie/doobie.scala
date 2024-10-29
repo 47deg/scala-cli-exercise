@@ -1,7 +1,3 @@
-//> using dep org.tpolecat::doobie-core:1.0.0-RC5
-//> using dep org.tpolecat::doobie-postgres:1.0.0-RC4
-//> using toolkit typelevel:0.1.27
-
 import cats.effect.{IO, IOApp}
 import doobie.*
 import doobie.implicits.*

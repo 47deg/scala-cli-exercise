@@ -1,5 +1,5 @@
-//> using test.dep org.scalameta::munit::1.0.1
-//> using file 5.tuples.scala
+//> using files "5.tuples.scala"
+//> using test.dependency "org.scalameta::munit::1.0.1"
 
 class Tuples extends munit.FunSuite {
   test("tuple values") {
@@ -14,4 +14,4 @@ class Tuples extends munit.FunSuite {
     assert(tuple21 == 3)
     assert(tuple22 == "apple")
   }
- }
+}

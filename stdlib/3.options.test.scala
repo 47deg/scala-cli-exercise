@@ -1,5 +1,5 @@
-//> using test.dep org.scalameta::munit::1.0.1
-//> using file 3.options.scala
+//> using files "3.options.scala"
+//> using test.dependency "org.scalameta::munit::1.0.1"
 
 class Options extends munit.FunSuite {
   test("Some[String] value") {
@@ -27,4 +27,4 @@ class Options extends munit.FunSuite {
     assert(numberFold == 9)
     assert(noNumberFold == 1)
   }
- }
+}

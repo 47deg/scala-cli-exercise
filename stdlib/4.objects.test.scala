@@ -1,5 +1,5 @@
-//> using test.dep org.scalameta::munit::1.0.1
-//> using file 4.objects.scala
+//> using files "4.objects.scala"
+//> using test.dependency "org.scalameta::munit::1.0.1"
 
 class Objects extends munit.FunSuite {
   test("Object def") {
@@ -17,4 +17,4 @@ class Objects extends munit.FunSuite {
     assert(clarkName == "Superman")
     assert(peterName == "Spider-Man")
   }
- }
+}

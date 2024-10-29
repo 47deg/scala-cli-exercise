@@ -1,6 +1,5 @@
-//> using test.dep org.scalameta::munit::1.0.1
-//> using dep org.scalatest::scalatest::3.2.19
-//> using file 1.asserts.scala
+//> using files "1.asserts.scala"
+//> using test.dependency "org.scalameta::munit::1.0.1"
 
 import org.scalatest.matchers.should.Matchers._
 
