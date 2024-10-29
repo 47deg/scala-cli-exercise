@@ -8,7 +8,7 @@ import cats.effect.IO
 import scala.concurrent.ExecutionContext
 import cats.effect.unsafe.implicits.global
 
-object Main extends IOApp.Simple {
+object DobbieImp {
 
   val xa = Transactor.fromDriverManager[IO](
     driver = "org.postgresql.Driver",
@@ -41,9 +41,4 @@ object Main extends IOApp.Simple {
       IO.println(s"All countries: ${countries.mkString(", ")}")
     }
 
-  override def run: IO[Unit] =
-    for {
-      _ <- runFind("France")
-      _ <- runFindAll
-    } yield ()
 }

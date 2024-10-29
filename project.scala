@@ -14,6 +14,7 @@
 //> using dependency "org.tpolecat::doobie-postgres:1.0.0-RC4"
 //> using dependency "org.typelevel::cats-core:2.12.0"
 //> using dependency "org.typelevel::cats-kernel:2.12.0"
+//> using dependency "org.typelevel::cats-effect:3.5.2"
 
 // Test
 //> using test.dependency "org.scalameta::munit-scalacheck:1.0.0"
